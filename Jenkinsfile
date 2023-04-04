@@ -5,7 +5,7 @@ node {
   }
   
   stage('Build image') {
-    app = docker.build('legendmt25/KIII_195063')
+    app = docker.build('legendmt25/kiii_jenkins')
   }
   
   stage('Push image') {
